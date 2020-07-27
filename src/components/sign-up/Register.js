@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import * as yup from 'yup';
 import styled from 'styled-components';
-import registerFormSchema from '../../validation/registerFormSchema'
+import '../../App.css';
+import registerFormSchema from '../../validation/registerFormSchema';
 
 const initialVal = {
     first_name: '',
@@ -22,6 +23,7 @@ const initialErrors = {
 };
 
 const StyledContainer = styled.form`
+    background: rgba(55, 90, 66, 0.616);
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -26,7 +26,6 @@ const Button = styled.button`
     color: white;
     text-decoration: none;
     background: rgb(68, 104, 82);
-    width: 15%;
     height: 2rem;
   
 
@@ -37,8 +36,8 @@ function Nav() {
             <NavWrap className="form-wrap">
         <NavLink  id ="home" href="https://expactmarketing.netlify.app/#main">Home</NavLink>
         <Link  id ="login" exact to ='/login'>Login</Link>
-        <Button href ='/signup'>signup</Button>
-</NavWrap>
+        <Link to='/signup'><Button href ='/signup'>signup</Button></Link>
+    </NavWrap>
 
         </div>
     )
