@@ -12,6 +12,7 @@ const StyledFooter = styled.footer`
     justify-content: center;
     font-size: 1.25rem;
     margin-bottom: 0;
+    margin-top: 2.5%;
 
     .circle {
         height: 60px;
