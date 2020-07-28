@@ -27,6 +27,7 @@ const StyledContainer = styled.form`
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 10%;
     background: rgba(55, 90, 66, 0.616);
     width: 60%;
     font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
